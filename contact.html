@@ -1,0 +1,52 @@
+<title>Contact</title>
+    <script src="head.js"></script>
+    <div class="container-fluid p-5 bg1">
+        <div class="container ">
+            <h4 class="text-center fw-bold pb-4 ">CONTACT US  </h4>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-4">
+                    <img src="img/slidera.jpg" alt="" width="99%">
+                    <p class="mt-4 fw-bold">Images Details</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste hic sequi fugiat dolorem eos sunt tempore illum ea laborum qui itaque voluptate labore, officia minus explicabo. Repudiandae nulla a mollitia omnis ipsa, repellendus corrupti aliquam odio reiciendis ullam.</p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-4">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" id="input2" name="name" class=" form-control" placeholder="Your Name*" required>
+                            </div>
+                            <div class="col-6">
+                                <input type="email" id="input3" name="email" class=" form-control" placeholder="Your Email*" required>
+                            </div>
+                        </div> <br><br>
+                        <input type="number" id="input4" name="number" class="form-control" placeholder="Your Number*" required><br><br>
+                        <textarea name="Message" id="" class="text" placeholder="Enter messages"></textarea>
+                     <button class="btn btn-secondary fw-bold mt-4 ps-5 pe-5 ms-1" onclick="fun1()">SEND MASSAGE</button>
+                    </form>
+                    
+                </div>
+            </div>
+            
+        </div>
+       
+    </div>
+
+    <div class="container-fluid pt ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.6312657173494!2d85.1221429749812!3d25.617166314563082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5994d02ab407%3A0x8ff34bb9a2537f37!2sSpecBits!5e0!3m2!1sen!2sin!4v1698644760106!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="fram"></iframe>
+        
+    </div>
+    
+    <script>
+        var name = document.getElementById("input2")
+        var Email = document.getElementById("input3")
+        var number = document.getElementById("input4")
+        function fun1(){
+            if(name.value=="" || Email.value=="" ||number.value==""){
+                alert("Please Enter your details")
+            }
+            else{
+                confirm("Post your Message")
+            }
+        }
+    </script>
+    <script src="foot.js"></script>

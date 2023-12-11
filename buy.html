@@ -1,0 +1,56 @@
+
+     <title>BUY</title>
+    <script src="head.js"></script>
+    <div class="container-fluid bg p-5">
+        <div class="container">
+            <h4 class="text-center fw-bold mb-5">BUY NOW</h4>
+            <form action="sucess.html">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <input type="text" id="input2" class=" form-control" name="name" placeholder="Your Name*"
+                            required> <br><br>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <input type="email" id="input3" class=" form-control" name="email" placeholder="Your Email*"
+                            required><br><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <input type="number" id="input4" value="" class="form-control" name="number"
+                            placeholder="Your First Number*" required><br><br>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+
+                        <input type="number" id="input5" value="" class="form-control" name="number"
+                            placeholder="Your Second Number*" required maxlength="10"><br><br>
+                    </div>
+                </div>
+
+                <textarea name="name" id="input6" class="text p-4" placeholder="Enter Your Current Address"
+                    required></textarea>
+                <button class="btn btn-secondary fw-bold mt-5 ps-5 pe-5" onclick="fun1()">Confirm Your Order</button>
+            </form>
+        </div>
+    </div>
+
+
+   
+    <script src="foot.js"></script>
+    <script>
+        var name = document.getElementById("input2")
+        var Email = document.getElementById("input3")
+        var number = document.getElementById("input4")
+        var number1 = document.getElementById("input5")
+        var text = document.getElementById("input6")
+        function fun1() {
+            if (name.value == "" || number.value == "" || Email.value == "" || number1.value == "" || text.value == "") {
+                alert("Please Enter your full details")
+            }
+            else {
+               
+                confirm("Order Confirm ")
+            }
+
+        }
+    </script>

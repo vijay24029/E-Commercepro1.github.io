@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.side{
+    cursor: pointer;
+    margin-right: 50px;
+}
+.side1{
+    /* font-family: serif; */
+    margin-right: 50px;
+    
+}
+.side2{
+    background-color: rgb(240, 253, 253);
+   
+   
+}
+.bt:hover{
+     background-color: rgb(62, 59, 59);
+        
+}
+.bt{
+    background-color:gray;
+    padding-top: 50px;
+   
+}
+.how:hover{
+    box-shadow: 0px 3px 3px 3px gray;
+    /* padding: 0.5px; */
+}
+.how2:hover{
+    box-shadow: 0px 3px 3px 3px rgb(183, 179, 179);
+    
+}
+.how1{
+    background-color: rgb(214, 228, 240);
+}
+
+
+.ext{
+margin-left: 100px;
+}
+.bor{
+    border-radius: 40%;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.bor:hover{
+    background-color: aqua;
+}
+.bg{
+    background-color: rgb(251, 239, 224);
+}
+.bg1{
+    background-color: rgb(226, 241, 250);
+}
+.text{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.pa{
+font-size: 10px;
+}
+.ron{
+    border-radius: 50%;
+}
+.box{
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 99%;
+    
+}
+.box1{
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 99%;
+    /* margin-left: 10px; */
+}
+.pt{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.fram{
+    width: 100%;
+    padding: 1px;
+}
+.point{
+    cursor: pointer;
+}
+.cur{
+    cursor: pointer;
+}
+.font{
+    font-family: serif;
+    /* font-weight: bold; */
+    font-size: 16px;
+}

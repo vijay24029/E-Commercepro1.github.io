@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="img/v.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .main {
+            /* display: none; */
+            width: 400px;
+            padding: 50px;
+            background-color: rgb(220, 244, 244);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main" id="main">
+        <h4 class="text-center mb-5 fw-bold">Login/Sing In form</h4>
+        <form action="index.html">
+
+            <input type="email" id="input2" class=" form-control" name="email" placeholder="Usename*" required> <br><br>
+
+            <input type="password" id="input3" class=" form-control" name="password" placeholder=" password*"
+                required><br><br>
+
+            <p class="text-center">
+                <button class="btn btn-secondary fw-bold mt-3 ps-5 pe-5" onclick="fun1()"> Login </button>
+                <button class="btn btn-primary fw-bold mt-3 ps-5 pe-5" onclick="fun()"> Sing In </button>
+
+            </p>
+    </div>
+
+    </form>
+
+    </div>
+
+
+    <!-- <i class="fa-solid fa-user fs-5 me-5 ms-2" onclick="use()"></i> -->
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script>
+        var Username = document.getElementById("input2")
+        var Email = document.getElementById("input3")
+
+        function fun1() {
+            if (Email.value == '123' && Username.value == "vijay@gmail.com") {
+                alert("You have successfully Login ")
+               
+            }
+            else {
+                alert("Wrong Username and password")
+            }
+            
+            // Email.value == '' || name.value == "";
+        }
+        function fun() {
+            if (Email.value == '' || name.value == "") {
+                alert("Please Enter Username and password ")
+            }
+            else {
+                alert("Successfully Sing In")
+            }
+            // Email.value == '' || name.value == "";
+        }
+    </script>
+
+</body>
+
+</html>
